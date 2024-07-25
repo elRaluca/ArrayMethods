@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(196, 172, 228);
+}
+
+.container {
+  text-align: center;
+  margin-top: 30px;
+}
+
+h1 {
+  font-size: 4rem;
+  color: antiquewhite;
+  text-shadow: 10px 1px rgb(231, 180, 162);
+}
+button {
+  margin-top: 10px;
+  background-color: antiquewhite;
+  padding: 5px;
+
+  border-radius: 5px;
+  border: 2px solid rgb(231, 180, 162);
+}
+
+button:hover {
+  background-color: rgb(231, 180, 162);
+}
+
+input {
+  margin-top: 10px;
+  background-color: rgb(196, 172, 228);
+  padding: 5px;
+  border-radius: 5px;
+  border: 2px solid rgb(231, 180, 162);
+}
+#output {
+  font-size: 50px;
+  font-weight: 700;
+}

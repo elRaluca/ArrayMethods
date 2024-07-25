@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Array Methods</h1>
+      <button onclick="arrayForEach()">Afisare Numere</button>
+      <div>
+        <div class="push">
+          <button onclick="arrayPush()">Adauga la final</button>
+          <button onclick="arrayPop()">Sterge ultimul element</button>
+        </div>
+        <input type="number" id="pushNumber" placeholder="Scrie un numar" />
+        <div class="unShift">
+          <button onclick="arrayUnshift()">Adauga la inceput</button>
+          <button onclick="arrayShift()">Sterge primul element</button>
+        </div>
+        <div>
+          <input
+            type="number"
+            id="unShiftNumber"
+            placeholder="Scrie un numar"
+          />
+        </div>
+        <button onclick="arrayFilter()">Numere Pare</button>
+        <button onclick="arraySortCresc()">Sorteaza Crescator</button>
+        <button onclick="arraySortDesc()">Sorteaza Descrescator</button>
+        <button onclick="arrayMap()">Dublare</button>
+      </div>
+      <div id="output"></div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
